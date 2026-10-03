@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <rect width="1200" height="675" fill="#12131c"/>
+  <rect x="1" y="1" width="1198" height="673" fill="none" stroke="#25283b" stroke-width="2"/>
+  
+  <line x1="60" y1="0" x2="60" y2="675" stroke="#1d2030" stroke-width="1"/>
+  <line x1="1140" y1="0" x2="1140" y2="675" stroke="#1d2030" stroke-width="1"/>
+  <line x1="0" y1="80" x2="1200" y2="80" stroke="#1d2030" stroke-width="1"/>
+  <line x1="0" y1="595" x2="1200" y2="595" stroke="#1d2030" stroke-width="1"/>
+
+  <text x="90" y="52" fill="#717a9e" font-family="JetBrains Mono, monospace" font-size="14" letter-spacing="2">SYS_SPEC :: STREAMING_ENGINE_V2</text>
+  <text x="960" y="52" fill="#ff4757" font-family="JetBrains Mono, monospace" font-size="14" letter-spacing="1">STATUS: OPERATIONAL</text>
+
+  <rect x="120" y="140" width="220" height="130" fill="#1a1d2e" stroke="#ff4757" stroke-width="1.5" rx="6"/>
+  <text x="140" y="175" fill="#ff6b81" font-family="JetBrains Mono, monospace" font-size="12">01. INGESTION</text>
+  <text x="140" y="205" fill="#ffffff" font-family="Space Grotesk, sans-serif" font-size="18" font-weight="700">Spring Boot API</text>
+  <text x="140" y="235" fill="#a4b0be" font-family="JetBrains Mono, monospace" font-size="12">Chunked S3 Upload</text>
+
+  <line x1="340" y1="205" x2="440" y2="205" stroke="#ff4757" stroke-width="2" stroke-dasharray="6,6"/>
+  <polygon points="436,200 448,205 436,210" fill="#ff4757"/>
+
+  <rect x="450" y="140" width="260" height="130" fill="#1a1d2e" stroke="#ffa502" stroke-width="1.5" rx="6"/>
+  <text x="470" y="175" fill="#eccc68" font-family="JetBrains Mono, monospace" font-size="12">02. EVENT STREAMING</text>
+  <text x="470" y="205" fill="#ffffff" font-family="Space Grotesk, sans-serif" font-size="18" font-weight="700">Kafka Broker Cluster</text>
+  <text x="470" y="235" fill="#a4b0be" font-family="JetBrains Mono, monospace" font-size="12">Topic: video.transcode</text>
+
+  <line x1="710" y1="205" x2="810" y2="205" stroke="#ffa502" stroke-width="2" stroke-dasharray="6,6"/>
+  <polygon points="806,200 818,205 806,210" fill="#ffa502"/>
+
+  <rect x="820" y="140" width="260" height="130" fill="#1a1d2e" stroke="#ff6b81" stroke-width="1.5" rx="6"/>
+  <text x="840" y="175" fill="#ff4757" font-family="JetBrains Mono, monospace" font-size="12">03. WORKER POOL</text>
+  <text x="840" y="205" fill="#ffffff" font-family="Space Grotesk, sans-serif" font-size="18" font-weight="700">FFmpeg Transcoder</text>
+  <text x="840" y="235" fill="#a4b0be" font-family="JetBrains Mono, monospace" font-size="12">1080p / 720p / 480p</text>
+
+  <path d="M 950 270 L 950 360 L 580 360 L 580 410" fill="none" stroke="#25283b" stroke-width="2" stroke-dasharray="4,4"/>
+  <polygon points="575,406 580,418 585,406" fill="#25283b"/>
+
+  <rect x="120" y="420" width="440" height="130" fill="#1a1d2e" stroke="#25283b" stroke-width="1.5" rx="6"/>
+  <text x="140" y="455" fill="#ff7f50" font-family="JetBrains Mono, monospace" font-size="12">04. STORAGE &amp; CACHE</text>
+  <text x="140" y="485" fill="#ffffff" font-family="Space Grotesk, sans-serif" font-size="18" font-weight="700">AWS S3 HLS + Redis</text>
+  <text x="140" y="515" fill="#a4b0be" font-family="JetBrains Mono, monospace" font-size="12">Adaptive Bitrate Streaming Index</text>
+
+  <rect x="600" y="420" width="480" height="130" fill="#1a1d2e" stroke="#ff4757" stroke-width="1.5" rx="6"/>
+  <text x="620" y="455" fill="#ff6b81" font-family="JetBrains Mono, monospace" font-size="12">PERFORMANCE METRICS</text>
+  <text x="620" y="495" fill="#ffffff" font-family="JetBrains Mono, monospace" font-size="22" font-weight="700">&lt; 95ms Latency</text>
+  <text x="850" y="495" fill="#ff4757" font-family="JetBrains Mono, monospace" font-size="22" font-weight="700">99.99% Delivery</text>
+
+  <circle cx="1060" cy="52" r="5" fill="#ff4757"/>
+</svg>

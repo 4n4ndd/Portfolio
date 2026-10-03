@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="100%" height="100%">
+  <rect width="600" height="750" fill="#12131c"/>
+  <rect x="1" y="1" width="598" height="748" fill="none" stroke="#25283b" stroke-width="2"/>
+  
+  <g stroke="#1d2030" stroke-width="1">
+    <line x1="40" y1="0" x2="40" y2="750"/>
+    <line x1="560" y1="0" x2="560" y2="750"/>
+    <line x1="0" y1="50" x2="600" y2="50"/>
+    <line x1="0" y1="700" x2="600" y2="700"/>
+  </g>
+
+  <rect x="120" y="140" width="360" height="420" fill="#1a1d2e" stroke="#38bdf8" stroke-width="1.5" rx="6"/>
+  
+  <circle cx="300" cy="270" r="75" fill="#0d0e15" stroke="#a855f7" stroke-width="2"/>
+  <path d="M 200 480 C 200 390, 400 390, 400 480 Z" fill="#0d0e15" stroke="#ff4757" stroke-width="1.5"/>
+
+  <text x="300" y="600" text-anchor="middle" fill="#ffffff" font-family="Space Grotesk, sans-serif" font-size="24" font-weight="700" letter-spacing="1">ANAND</text>
+  <text x="300" y="630" text-anchor="middle" fill="#38bdf8" font-family="JetBrains Mono, monospace" font-size="14" letter-spacing="2">BACKEND SOFTWARE ENGINEER</text>
+  <text x="300" y="655" text-anchor="middle" fill="#a4b0be" font-family="JetBrains Mono, monospace" font-size="12">JAVA • SPRING BOOT • KAFKA • DISTRIBUTED SYSTEMS</text>
+
+  <circle cx="560" cy="50" r="4" fill="#a855f7"/>
+</svg>

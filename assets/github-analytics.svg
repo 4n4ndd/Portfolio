@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <rect width="1200" height="675" fill="#12131c"/>
+  <rect x="1" y="1" width="1198" height="673" fill="none" stroke="#25283b" stroke-width="2"/>
+  
+  <line x1="60" y1="0" x2="60" y2="675" stroke="#1d2030" stroke-width="1"/>
+  <line x1="1140" y1="0" x2="1140" y2="675" stroke="#1d2030" stroke-width="1"/>
+  <line x1="0" y1="80" x2="1200" y2="80" stroke="#1d2030" stroke-width="1"/>
+  <line x1="0" y1="595" x2="1200" y2="595" stroke="#1d2030" stroke-width="1"/>
+
+  <text x="90" y="52" fill="#717a9e" font-family="JetBrains Mono, monospace" font-size="14" letter-spacing="2">SYS_SPEC :: DINO_GITHUB_ANALYTICS</text>
+  <text x="960" y="52" fill="#34d399" font-family="JetBrains Mono, monospace" font-size="14" letter-spacing="1">JAVA 21 + WEBCLIENT</text>
+
+  <rect x="100" y="130" width="480" height="420" fill="#1a1d2e" stroke="#34d399" stroke-width="1.5" rx="6"/>
+  <text x="130" y="165" fill="#34d399" font-family="JetBrains Mono, monospace" font-size="12">01. API INGESTION PIPELINE</text>
+  <text x="130" y="195" fill="#ffffff" font-family="Space Grotesk, sans-serif" font-size="20" font-weight="700">Spring WebClient + GitHub REST</text>
+
+  <rect x="130" y="230" width="420" height="90" fill="#0d0e15" stroke="#25283b" stroke-width="1" rx="4"/>
+  <text x="150" y="260" fill="#ffffff" font-family="JetBrains Mono, monospace" font-size="13">Non-Blocking WebClient Requests</text>
+  <text x="150" y="285" fill="#a4b0be" font-family="JetBrains Mono, monospace" font-size="12">Paginated Repository &amp; Commit Streams</text>
+
+  <rect x="620" y="130" width="480" height="420" fill="#1a1d2e" stroke="#10b981" stroke-width="1.5" rx="6"/>
+  <text x="650" y="165" fill="#34d399" font-family="JetBrains Mono, monospace" font-size="12">02. PERSISTENCE &amp; CACHE</text>
+  <text x="650" y="195" fill="#ffffff" font-family="Space Grotesk, sans-serif" font-size="20" font-weight="700">PostgreSQL + Redis Layer</text>
+
+  <rect x="650" y="230" width="420" height="130" fill="#0d0e15" stroke="#25283b" stroke-width="1" rx="4"/>
+  <text x="670" y="260" fill="#a4b0be" font-family="JetBrains Mono, monospace" font-size="12">Redis In-Memory TTL Cache</text>
+  <text x="670" y="290" fill="#34d399" font-family="JetBrains Mono, monospace" font-size="18" font-weight="700">API Rate Limit Reduction: 85%</text>
+
+  <circle cx="1110" cy="52" r="5" fill="#34d399"/>
+</svg>
